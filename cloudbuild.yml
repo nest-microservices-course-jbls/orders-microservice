@@ -11,8 +11,11 @@ steps:
   args:
     [
       'push',
-      'northamerica-northeast1-docker.pkg.dev/tienda-microservices/image-registry/orders-ms',
+      "northamerica-northeast1-docker.pkg.dev/tienda-microservices-431604/image-registry/orders-ms",
     ]
+
+options:
+  logging: CLOUD_LOGGING_ONLY
 
 availableSecrets:
   secretManager:
